@@ -1,0 +1,68 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Inclui padding e border na largura e altura totais dos elementos */
+}
+
+html, body {
+    height: 100%;  /* Garante que <html> e <body> ocupem a altura total da janela */
+    margin: 0;     /* Remove a margem padrão */
+    padding: 0;    /* Remove o preenchimento padrão */
+}
+
+body {
+    min-height: 100vh;  /* Garante que o body tenha pelo menos a altura da janela */
+    background-image: url('ete\ luiz.jpg'); /* Substitua pelo caminho correto da imagem */
+    background-size: cover; /* Faz com que a imagem cubra toda a área do body */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+}
+
+.container {
+    height: 60px;
+    width: 100%;
+    background-color: blue;
+    display: flex;               /* Adiciona flexbox ao contêiner */
+    align-items: center;        /* Alinha itens verticalmente no centro do contêiner */
+    justify-content: space-between; /* Espaça os itens com espaço máximo entre eles */
+    padding: 0 10px;            /* Adiciona um pouco de espaço interno à esquerda e à direita */
+}
+
+.img1 img {
+    width: 120px;  /* Ajusta a largura conforme necessário */
+    height: auto;  /* Mantém a proporção da imagem */
+    margin-top: 5px; /* Ajuste para mover a imagem para baixo */
+}
+
+.p1 {
+    display: flex;              /* Adiciona flexbox ao contêiner de itens */
+    align-items: center;       /* Alinha itens verticalmente no centro */
+    gap: 50px;                 /* Reduz o espaçamento entre os itens */
+    color: rgb(249, 249, 250); /* Cor dos itens dentro de .p1 */
+}
+
+.p1 a {
+    color: white; /* Define a cor dos links como branco */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+.p1 form input[type="text"] {
+    width: 120px; /* Define a largura do campo de entrada */
+    height: 30px; /* Define a altura do campo de entrada */
+    padding: 5px; /* Adiciona um pouco de preenchimento dentro do campo de entrada */
+    border-radius: 15px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    font-size: xx-large;
+    margin-top: 200px;
+}
+
+h1 {
+    background-color: blue;
+    width: 580px;
+}
