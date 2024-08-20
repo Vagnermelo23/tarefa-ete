@@ -27,12 +27,17 @@ body {
     align-items: center;        /* Alinha itens verticalmente no centro do contêiner */
     justify-content: space-between; /* Espaça os itens com espaço máximo entre eles */
     padding: 0 10px;            /* Adiciona um pouco de espaço interno à esquerda e à direita */
+    
 }
 
 .img1 img {
     width: 120px;  /* Ajusta a largura conforme necessário */
     height: auto;  /* Mantém a proporção da imagem */
     margin-top: 5px; /* Ajuste para mover a imagem para baixo */
+    border: 3px solid white; /* Adiciona uma borda preta de 5 pixels de espessura */
+    border-radius: 20px; /* Adiciona cantos arredondados à borda */
+    padding: 3px 5px;
+    
 }
 
 .p1 {
@@ -48,11 +53,12 @@ body {
 }
 
 .p1 form input[type="text"] {
-    width: 120px; /* Define a largura do campo de entrada */
+    width: 85px; /* Define a largura do campo de entrada */
     height: 30px; /* Define a altura do campo de entrada */
     padding: 5px; /* Adiciona um pouco de preenchimento dentro do campo de entrada */
-    border-radius: 15px;
+    border-radius: 15px;   
 }
+
 
 .container2 {
     display: flex;
@@ -67,4 +73,15 @@ body {
 h1 {
     background-color: blue;
     width: 580px;
+}
+
+.input1 {
+    display: flex;         /* Usar flexbox para alinhar o input e ícone horizontalmente */
+    align-items: center;  /* Alinhar itens verticalmente */
+}
+
+.p1 .icons {
+    margin-left: 10px;      /* Ajusta a distância entre o campo de texto e o ícone */
+    font-size: 30px;       /* Tamanho do ícone */
+    cursor: pointer;       /* Cursor em forma de ponteiro */
 }
